@@ -1,0 +1,42 @@
+
+Clover EFI installer log - Sun Mar 20 00:11:27 WIB 2016
+Installer version: v2.3k r3354 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Capitan                 109.6 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:                  Apple_HFS Mavericks               89.9 GB    disk0s4
+   5:         Microsoft Reserved                         134.2 MB   disk0s5
+   6:       Microsoft Basic Data                         99.5 GB    disk0s6
+   7:           Windows Recovery                         471.9 MB   disk0s7
+   8:       Microsoft Basic Data DATA                    199.7 GB   disk0s8
+/dev/disk1 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *7.9 GB     disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS install_osx             7.6 GB     disk1s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Capitan/EFIROOTDIR/EFI folder to /Volumes/Capitan/EFI-Backups/r3346/2016-03-20-00h11/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+Theme 'Bluemac' (defined in config.plist) not found !
+Using default theme 'bluemac'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
